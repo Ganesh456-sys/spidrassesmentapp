@@ -1,70 +1,130 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 📄 `README.md`
 
-In the project directory, you can run:
+```markdown
+# 🔥 Spidr Air Fryer Interest Form
 
-### `npm start`
+This is a fictional interest form built for the **Spidr Design Full-Stack Software Engineer (Entry-Level)** hiring challenge.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The task was to create a stylish, user-friendly form to be embedded on a landing page promoting a futuristic air fryer. The branding and UI closely follow the look and feel of [https://spidr.design](https://spidr.design).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🌐 [View Deployed App](https://your-username.github.io/spidr-interest-form)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📸 Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Form Screenshot](./screenshot.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ✨ Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Clean, dark-themed form UI inspired by Spidr branding
+- Responsive and accessible layout
+- Live input formatting for the 16-digit Spidr PIN (`####-####-####-####`)
+- All input data printed to the console on form submission
+- Built with modern frontend stack: **React + Vite + styled-components**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧱 Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React** (with hooks)
+- **Vite** (lightweight dev + build tool)
+- **Styled-components** (component-scoped CSS-in-JS)
+- **Deployed using GitHub Pages** (or Vercel, if applicable)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📂 Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
 
-### Code Splitting
+src/
+├── components/
+│   └── Form.jsx
+├── styles/
+│   └── GlobalStyle.jsx
+├── App.js
+├── index.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+````
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🛠️ Setup Instructions
 
-### Making a Progressive Web App
+### 1. Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+git clone https://github.com/your-username/spidr-interest-form.git
+cd spidr-interest-form
+````
 
-### Advanced Configuration
+### 2. Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm install
+```
 
-### Deployment
+### 3. Run locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+npm run dev
+```
 
-### `npm run build` fails to minify
+### 4. Build for production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm run build
+```
+
+---
+
+## 🧪 Submit Data
+
+All form data will be printed to the browser console upon submission.
+
+---
+
+## 📦 Deployment
+
+You can deploy this app using:
+
+* **GitHub Pages** (via `vite build`)
+* **Vercel** or **Netlify** (auto-deploy from repo)
+
+---
+
+## 🧑‍💻 Author
+
+**Abhinab Sarkar**
+Built for the Spidr Design hiring challenge
+
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+```
+
+---
+
+## 📌 Next Steps
+
+- Replace `your-username` with your GitHub username
+- Add a screenshot named `screenshot.png` to the root if you want it to show in the README
+- Save this as `README.md` in your project root
+
+---
+
+Let me know if you want a version tailored for **Vercel deployment**, or if you'd like me to generate a `vite.config.js` or GitHub Actions workflow file!
+```

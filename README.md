@@ -104,7 +104,7 @@ You can deploy this app using:
 
 ## 🧑‍💻 Author
 
-**Abhinab Sarkar**
+**Bhaskara Sannidhi**
 Built for the Spidr Design hiring challenge
 
 
